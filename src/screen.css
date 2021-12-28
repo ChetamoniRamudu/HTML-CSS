@@ -1,6 +1,60 @@
 /* Our CSS file. */
 
 
-.container, .content {
-width: 100%;
+.container{
+    width: 100%;
+    height: 100%;
+    }
+.firstpart{
+    display:flex;
+    width:100%;
+    height:50%;
+    border:1px solid black;
+    margin-bottom: 5px;
+}
+.secondpart{
+    display:flex;
+    width:100%;
+    height:50%;
+    border:1px solid black;
+    margin-top: 5px;
+}
+.firstpartleft{
+    width:700px;
+    height:500px;
+     margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+    }
+.firstpartright{
+    width:700px;
+    height:500px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.secondpartleft{
+    width:700px;
+    height:500px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+.secondpartright{
+    width:700px;
+    height:500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+img{
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.h1tag{
+    margin-top: 160px;
+
 }
